@@ -15,5 +15,4 @@ public class VillageInfo {
     String villageInfoId;
     String villageName;
     String address;
-
 }
