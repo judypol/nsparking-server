@@ -1,10 +1,10 @@
 package com.judysen.enities;
 
-import com.judysen.enums.EnumLevel;
 import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.data.annotation.Id;
 
 /**
+ * 用户信息
  * Created by judysen on 2017/10/6.
  */
 public class UserInfo {
@@ -19,6 +19,7 @@ public class UserInfo {
     String password;
     int score;
     String level;
+
 
     public String getUserName() {
         return userName;
